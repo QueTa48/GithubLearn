@@ -14,4 +14,5 @@ void SomeClassA::printData()
 {
     std::cout << std::endl;
     std::cout << *_pData << std::endl;
+    std::cout << std::endl;
 }
