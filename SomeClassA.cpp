@@ -2,7 +2,7 @@
 
 SomeClassA::SomeClassA()
 {
-    _pData = new int(5);
+    _pData = new int(10);
 }
 
 SomeClassA::~SomeClassA()
