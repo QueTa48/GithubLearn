@@ -12,5 +12,6 @@ SomeClassA::~SomeClassA()
 
 void SomeClassA::printData()
 {
+    std::cout << std::endl;
     std::cout << *_pData << std::endl;
 }
