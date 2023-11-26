@@ -4,20 +4,11 @@
 class SomeClassA
 {
 public:
-	SomeClassA()
-	{
-		_pData = new int(5);
-	}
+	SomeClassA();
 
-	~SomeClassA()
-	{
-		delete _pData;
-	}
+	~SomeClassA();
 
-	void printData()
-	{
-		std::cout << *_pData << std::endl;
-	}
+	void printData();
 
 private:
 	int* _pData;
